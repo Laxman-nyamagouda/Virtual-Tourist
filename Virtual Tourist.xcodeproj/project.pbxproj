@@ -9,12 +9,21 @@
 /* Begin PBXBuildFile section */
 		03008DAD247AD6920057C756 /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 03008DAC247AD6920057C756 /* AppDelegate.swift */; };
 		03008DAF247AD6920057C756 /* SceneDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 03008DAE247AD6920057C756 /* SceneDelegate.swift */; };
-		03008DB1247AD6920057C756 /* ViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 03008DB0247AD6920057C756 /* ViewController.swift */; };
+		03008DB1247AD6920057C756 /* VirtualTravelMapViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 03008DB0247AD6920057C756 /* VirtualTravelMapViewController.swift */; };
 		03008DB4247AD6920057C756 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 03008DB2247AD6920057C756 /* Main.storyboard */; };
 		03008DB6247AD6920057C756 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 03008DB5247AD6920057C756 /* Assets.xcassets */; };
 		03008DB9247AD6920057C756 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 03008DB7247AD6920057C756 /* LaunchScreen.storyboard */; };
 		03008DC4247AD6920057C756 /* Virtual_TouristTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 03008DC3247AD6920057C756 /* Virtual_TouristTests.swift */; };
 		03008DCF247AD6920057C756 /* Virtual_TouristUITests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 03008DCE247AD6920057C756 /* Virtual_TouristUITests.swift */; };
+		03008DDE247AD6C40057C756 /* Virtual_Tourist.xcdatamodeld in Sources */ = {isa = PBXBuildFile; fileRef = 03008DDC247AD6C30057C756 /* Virtual_Tourist.xcdatamodeld */; };
+		03008DE0247AD83B0057C756 /* CoreDataStack.swift in Sources */ = {isa = PBXBuildFile; fileRef = 03008DDF247AD83B0057C756 /* CoreDataStack.swift */; };
+		03008DE2247AD9500057C756 /* VirtualPhotoAlbumViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 03008DE1247AD9500057C756 /* VirtualPhotoAlbumViewController.swift */; };
+		03008DE6247AD9B80057C756 /* Pin.swift in Sources */ = {isa = PBXBuildFile; fileRef = 03008DE5247AD9B80057C756 /* Pin.swift */; };
+		03008DE8247AD9C90057C756 /* Photo.swift in Sources */ = {isa = PBXBuildFile; fileRef = 03008DE7247AD9C90057C756 /* Photo.swift */; };
+		03008DEA247ADB780057C756 /* PhotoParser.swift in Sources */ = {isa = PBXBuildFile; fileRef = 03008DE9247ADB780057C756 /* PhotoParser.swift */; };
+		03008DEC247ADC5A0057C756 /* ViewControllerExtensions.swift in Sources */ = {isa = PBXBuildFile; fileRef = 03008DEB247ADC5A0057C756 /* ViewControllerExtensions.swift */; };
+		03008DEF247ADD3B0057C756 /* APIClient.swift in Sources */ = {isa = PBXBuildFile; fileRef = 03008DEE247ADD3B0057C756 /* APIClient.swift */; };
+		03008DF1247ADD760057C756 /* PhotoViewCell.swift in Sources */ = {isa = PBXBuildFile; fileRef = 03008DF0247ADD760057C756 /* PhotoViewCell.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -38,7 +47,7 @@
 		03008DA9247AD6920057C756 /* Virtual Tourist.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = "Virtual Tourist.app"; sourceTree = BUILT_PRODUCTS_DIR; };
 		03008DAC247AD6920057C756 /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
 		03008DAE247AD6920057C756 /* SceneDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SceneDelegate.swift; sourceTree = "<group>"; };
-		03008DB0247AD6920057C756 /* ViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ViewController.swift; sourceTree = "<group>"; };
+		03008DB0247AD6920057C756 /* VirtualTravelMapViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = VirtualTravelMapViewController.swift; sourceTree = "<group>"; };
 		03008DB3247AD6920057C756 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
 		03008DB5247AD6920057C756 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
 		03008DB8247AD6920057C756 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
@@ -49,6 +58,15 @@
 		03008DCA247AD6920057C756 /* Virtual TouristUITests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = "Virtual TouristUITests.xctest"; sourceTree = BUILT_PRODUCTS_DIR; };
 		03008DCE247AD6920057C756 /* Virtual_TouristUITests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Virtual_TouristUITests.swift; sourceTree = "<group>"; };
 		03008DD0247AD6920057C756 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		03008DDD247AD6C30057C756 /* Virtual_Tourist.xcdatamodel */ = {isa = PBXFileReference; lastKnownFileType = wrapper.xcdatamodel; path = Virtual_Tourist.xcdatamodel; sourceTree = "<group>"; };
+		03008DDF247AD83B0057C756 /* CoreDataStack.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = CoreDataStack.swift; sourceTree = "<group>"; };
+		03008DE1247AD9500057C756 /* VirtualPhotoAlbumViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = VirtualPhotoAlbumViewController.swift; sourceTree = "<group>"; };
+		03008DE5247AD9B80057C756 /* Pin.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Pin.swift; sourceTree = "<group>"; };
+		03008DE7247AD9C90057C756 /* Photo.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Photo.swift; sourceTree = "<group>"; };
+		03008DE9247ADB780057C756 /* PhotoParser.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = PhotoParser.swift; sourceTree = "<group>"; };
+		03008DEB247ADC5A0057C756 /* ViewControllerExtensions.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ViewControllerExtensions.swift; sourceTree = "<group>"; };
+		03008DEE247ADD3B0057C756 /* APIClient.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = APIClient.swift; sourceTree = "<group>"; };
+		03008DF0247ADD760057C756 /* PhotoViewCell.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = PhotoViewCell.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -99,9 +117,13 @@
 		03008DAB247AD6920057C756 /* Virtual Tourist */ = {
 			isa = PBXGroup;
 			children = (
+				03008DED247ADD200057C756 /* Network */,
+				03008DE4247AD9960057C756 /* ViewControllers */,
+				03008DE3247AD9880057C756 /* Models */,
 				03008DAC247AD6920057C756 /* AppDelegate.swift */,
 				03008DAE247AD6920057C756 /* SceneDelegate.swift */,
-				03008DB0247AD6920057C756 /* ViewController.swift */,
+				03008DDC247AD6C30057C756 /* Virtual_Tourist.xcdatamodeld */,
+				03008DDF247AD83B0057C756 /* CoreDataStack.swift */,
 				03008DB2247AD6920057C756 /* Main.storyboard */,
 				03008DB5247AD6920057C756 /* Assets.xcassets */,
 				03008DB7247AD6920057C756 /* LaunchScreen.storyboard */,
@@ -126,6 +148,35 @@
 				03008DD0247AD6920057C756 /* Info.plist */,
 			);
 			path = "Virtual TouristUITests";
+			sourceTree = "<group>";
+		};
+		03008DE3247AD9880057C756 /* Models */ = {
+			isa = PBXGroup;
+			children = (
+				03008DE5247AD9B80057C756 /* Pin.swift */,
+				03008DE7247AD9C90057C756 /* Photo.swift */,
+				03008DE9247ADB780057C756 /* PhotoParser.swift */,
+			);
+			path = Models;
+			sourceTree = "<group>";
+		};
+		03008DE4247AD9960057C756 /* ViewControllers */ = {
+			isa = PBXGroup;
+			children = (
+				03008DB0247AD6920057C756 /* VirtualTravelMapViewController.swift */,
+				03008DE1247AD9500057C756 /* VirtualPhotoAlbumViewController.swift */,
+				03008DEB247ADC5A0057C756 /* ViewControllerExtensions.swift */,
+				03008DF0247ADD760057C756 /* PhotoViewCell.swift */,
+			);
+			path = ViewControllers;
+			sourceTree = "<group>";
+		};
+		03008DED247ADD200057C756 /* Network */ = {
+			isa = PBXGroup;
+			children = (
+				03008DEE247ADD3B0057C756 /* APIClient.swift */,
+			);
+			path = Network;
 			sourceTree = "<group>";
 		};
 /* End PBXGroup section */
@@ -259,9 +310,18 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				03008DB1247AD6920057C756 /* ViewController.swift in Sources */,
+				03008DE8247AD9C90057C756 /* Photo.swift in Sources */,
+				03008DE6247AD9B80057C756 /* Pin.swift in Sources */,
+				03008DEA247ADB780057C756 /* PhotoParser.swift in Sources */,
+				03008DE0247AD83B0057C756 /* CoreDataStack.swift in Sources */,
+				03008DE2247AD9500057C756 /* VirtualPhotoAlbumViewController.swift in Sources */,
+				03008DEF247ADD3B0057C756 /* APIClient.swift in Sources */,
+				03008DDE247AD6C40057C756 /* Virtual_Tourist.xcdatamodeld in Sources */,
+				03008DB1247AD6920057C756 /* VirtualTravelMapViewController.swift in Sources */,
 				03008DAD247AD6920057C756 /* AppDelegate.swift in Sources */,
+				03008DEC247ADC5A0057C756 /* ViewControllerExtensions.swift in Sources */,
 				03008DAF247AD6920057C756 /* SceneDelegate.swift in Sources */,
+				03008DF1247ADD760057C756 /* PhotoViewCell.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -584,6 +644,19 @@
 			defaultConfigurationName = Release;
 		};
 /* End XCConfigurationList section */
+
+/* Begin XCVersionGroup section */
+		03008DDC247AD6C30057C756 /* Virtual_Tourist.xcdatamodeld */ = {
+			isa = XCVersionGroup;
+			children = (
+				03008DDD247AD6C30057C756 /* Virtual_Tourist.xcdatamodel */,
+			);
+			currentVersion = 03008DDD247AD6C30057C756 /* Virtual_Tourist.xcdatamodel */;
+			path = Virtual_Tourist.xcdatamodeld;
+			sourceTree = "<group>";
+			versionGroupType = wrapper.xcdatamodel;
+		};
+/* End XCVersionGroup section */
 	};
 	rootObject = 03008DA1247AD6920057C756 /* Project object */;
 }
